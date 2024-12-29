@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { Container, Paper, Snackbar, IconButton, Box } from "@mui/material";
+import {
+  Typography,
+  Container,
+  Paper,
+  Snackbar,
+  IconButton,
+  Box,
+} from "@mui/material";
 import {
   Brightness4 as LightModeIcon,
   Brightness7 as DarkModeIcon,
@@ -62,7 +69,15 @@ function App() {
         }}
       >
         <Container maxWidth="sm">
-          <Box display="flex" justifyContent="flex-end" marginBottom="20px">
+          <Box
+            display="flex"
+            justifyContent="space-between"
+            alignItems="center"
+            marginBottom="20px"
+          >
+            <Typography variant="h6" color="text.primary">
+              Password Generator
+            </Typography>
             <IconButton onClick={toggleDarkMode} color="primary">
               {darkMode ? <DarkModeIcon /> : <LightModeIcon />}
             </IconButton>
