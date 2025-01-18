@@ -23,6 +23,6 @@ A sleek and user-friendly password generator that ensures your online security w
 - **Save Settings**: Persist user preferences (e.g., length, toggles) across sessions.
 - **Multi-Language Support**: Expand usability with support for additional languages.
 
-## Access
+## Demo
 
 Experience the application firsthand by visiting the deployed version [here](https://joshleatherland.github.io/PasswordGenerator/).
