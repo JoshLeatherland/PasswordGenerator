@@ -20,6 +20,6 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^6.2.0",
-    "vite": "^4.0.0"
+    "vite": "^6.0.5"
   }
 }
